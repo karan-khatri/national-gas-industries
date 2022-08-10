@@ -29,6 +29,9 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/index.css" />
   </head>
@@ -80,12 +83,12 @@
       <div class="container-fluid section-2 py-5">
         <div class="container py-5">
           <div class="d-flex flex-column flex-md-row">
-            <div class="rounded bg-white mx-0 mx-md-3 mb-3 mb-md-0 text-center py-5 px-4 vision-mission-cards">
+            <div class="rounded bg-white mx-0 mx-md-3 mb-3 mb-md-0 text-center py-5 px-4 vision-mission-cards" data-aos="fade-right">
               <img src="./assets/images/icons/icon-vision.png" alt="" class="card-heading-images mb-3" />
               <h5>VISION</h5>
               <p class="lightGray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget commodo amet, ridiculus vitae eget</p>
             </div>
-            <div class="rounded bg-white mx-0 mx-md-3 text-center py-5 px-4 vision-mission-cards">
+            <div class="rounded bg-white mx-0 mx-md-3 text-center py-5 px-4 vision-mission-cards" data-aos="fade-left">
               <img src="./assets/images/icons/icon-target.png" alt="" class="card-heading-images mb-3" />
               <h5>MISSION</h5>
               <p class="lightGray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget commodo amet, ridiculus vitae eget</p>
@@ -100,7 +103,7 @@
               <h5 class="fw-bold">OUR PRODUCTS</h5>
               <h2>Products and Services</h2>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 mb-5">
+            <div class="col-12 col-sm-6 col-md-4 mb-5" data-aos="zoom-in-down">
               <img src="./assets/images/icons/icon-service-1.png" alt="" class="check-heading-images" />
               <h3 class="check-heading">Medical Gases</h3>
               <p class="check-text">
@@ -140,7 +143,7 @@
                 Speciality Mixture Gases
               </p>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 mb-5">
+            <div class="col-12 col-sm-6 col-md-4 mb-5" data-aos="zoom-in-down">
               <img src="./assets/images/icons/icon-service-2.png" alt="" class="check-heading-images" />
               <h3 class="check-heading">Industrial Gases</h3>
               <p class="check-text">
@@ -192,7 +195,7 @@
                 Welding Mixture Gases
               </p>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 mb-5">
+            <div class="col-12 col-sm-6 col-md-4 mb-5" data-aos="zoom-in-down">
               <img src="./assets/images/icons/icon-service-3.png" alt="" class="check-heading-images" />
               <h3 class="check-heading">Refrigerant Gases</h3>
               <p class="check-text">
@@ -250,7 +253,7 @@
                 Premium Quality Product
               </p>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 mb-5">
+            <div class="col-12 col-sm-6 col-md-4 mb-5" data-aos="zoom-in-down">
               <img src="./assets/images/icons/icon-service-4.png" alt="" class="check-heading-images" />
               <h3 class="check-heading">Refrigerant Gases</h3>
               <p class="check-text">
@@ -296,7 +299,7 @@
                 Certificate of Analysis
               </p>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 mb-5">
+            <div class="col-12 col-sm-6 col-md-4 mb-5" data-aos="zoom-in-down">
               <img src="./assets/images/icons/icon-service-5.png" alt="" class="check-heading-images" />
               <h3 class="check-heading">Refrigerant Gases</h3>
               <p class="check-text">
@@ -326,7 +329,7 @@
               <h5 class="fw-bold">OUR PRODUCTS</h5>
               <h2>Products and Accessories</h2>
             </div>
-            <div class="d-flex flex-column flex-sm-row justify-content-around">
+            <div class="d-flex flex-column flex-sm-row justify-content-around" data-aos="flip-left">
               <div class="mx-0 mx-md-5 py-5 px-3">
                 <img src="./assets/images/icons/icon-accessories-1.png" alt="" class="check-heading-images" />
                 <h3 class="check-heading">Refrigerant Gases</h3>
@@ -478,5 +481,10 @@
         </div>
       </div>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
